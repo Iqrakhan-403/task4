@@ -1,0 +1,36 @@
+customer_id  name   email           join_date 
+-----------  -----  --------------  ----------
+1            Alice  alice@mail.com  2022-01-01
+2            Bob    bob@mail.com    2022-03-15
+order_id  customer_id  order_date  total_amount
+--------  -----------  ----------  ------------
+1         1            2022-05-01  1200.0      
+2         2            2022-06-10  200.0       
+name        total_revenue
+----------  -------------
+Laptop      1000.0       
+Headphones  400.0        
+name   avg_revenue
+-----  -----------
+Alice  1200.0     
+Bob    200.0      
+name        total_quantity
+----------  --------------
+Headphones  2             
+Laptop      1             
+total_revenue
+-------------
+1400.0       
+name   order_count
+-----  -----------
+Bob    1          
+Alice  1          
+order_month  monthly_revenue
+-----------  ---------------
+2022-05      1200.0         
+2022-06      200.0          
+customer_id  email         
+-----------  --------------
+1            alice@mail.com
+2            bob@mail.com  
+sqlite> 
